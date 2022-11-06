@@ -164,16 +164,17 @@ body {
 }
 
 .image {
+  display: grid;
   width: 600px;
-  height: 200px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
   background-color: hsl(0, 0%, 50%);
-}
-
-.image div {
 }
 
 .image p {
   color: var(--color-neutral-100);
+  text-align: center;
 }
 /* ------ Utility Classes ------ */
 
